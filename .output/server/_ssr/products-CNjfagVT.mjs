@@ -1,0 +1,614 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/products-CNjfagVT.js
+var CATEGORIES = [
+	"Snacks and Namkeen",
+	"Pickles & Condiments",
+	"Sweets & Bakery",
+	"Dairy & Beverages",
+	"Mukhvas & Digestives",
+	"Confectionery",
+	"Spices & Masalas",
+	"Dry/Instant Grocery"
+];
+var baseNutrition = (energy, protein, fat, carbs) => [
+	{
+		label: "Energy",
+		value: energy
+	},
+	{
+		label: "Protein",
+		value: protein
+	},
+	{
+		label: "Total Fat",
+		value: fat
+	},
+	{
+		label: "Carbohydrate",
+		value: carbs
+	}
+];
+var PRODUCTS = [
+	{
+		slug: "beetroot-chips",
+		name: "Beetroot Chips",
+		tagline: "Beetroot, Crispy, Nutritious Treat",
+		price: 70,
+		category: "Snacks and Namkeen",
+		weights: ["100g", "200g"],
+		tags: ["Healthy", "Crispy"],
+		reviewCount: 56,
+		rating: 4.6,
+		popular: true,
+		ingredients: "Beetroot, edible vegetable oil, iodised salt, spices & condiments.",
+		nutrition: baseNutrition("468 kcal / 100g", "5.1 g", "22.4 g", "58.9 g"),
+		shelfLife: "3 months from date of packaging",
+		highlights: [
+			"Made from Real Beetroot",
+			"Crispy & Crunchy",
+			"Naturally Colorful",
+			"Light & Flavorful",
+			"No Preservatives",
+			"Perfect Anytime Snack"
+		],
+		description: "Beetroot Chips are crispy, crunchy snacks made from fresh beetroot slices. Naturally colorful and flavorful, they offer a delicious crunch with a mildly sweet and savory taste, making healthy snacking enjoyable anytime."
+	},
+	{
+		slug: "cheeseling",
+		name: "Cheeseling",
+		tagline: "Cheesy, Crispy, Snack Time",
+		price: 110,
+		category: "Snacks and Namkeen",
+		weights: ["150g", "300g"],
+		tags: ["Crispy"],
+		reviewCount: 34,
+		rating: 4.4,
+		popular: true,
+		ingredients: "Refined wheat flour, cheese powder, edible vegetable oil, salt, spices.",
+		nutrition: baseNutrition("512 kcal / 100g", "8.2 g", "26.0 g", "60.1 g"),
+		shelfLife: "4 months from date of packaging",
+		highlights: [
+			"Real cheese seasoning",
+			"Bite-sized crunch",
+			"Kid friendly",
+			"No preservatives"
+		],
+		description: "Crisp, golden squares with a savoury cheese seasoning. A tea-time favourite that works just as well in a lunchbox."
+	},
+	{
+		slug: "corn-chakali",
+		name: "Corn Chakali",
+		tagline: "Crispy, Golden, Corn Crunch",
+		price: 50,
+		category: "Snacks and Namkeen",
+		weights: ["100g", "250g"],
+		tags: ["Traditional"],
+		reviewCount: 41,
+		rating: 4.5,
+		popular: true,
+		ingredients: "Corn flour, rice flour, gram flour, sesame, edible vegetable oil, salt, spices.",
+		nutrition: baseNutrition("496 kcal / 100g", "7.4 g", "24.8 g", "59.2 g"),
+		shelfLife: "3 months from date of packaging",
+		highlights: [
+			"Hand-rolled spirals",
+			"Classic Maharashtrian recipe",
+			"Small batch fried"
+		],
+		description: "The classic chakali, made with corn flour for a lighter, sweeter crunch. Rolled by hand and fried in small batches."
+	},
+	{
+		slug: "thepla-puri",
+		name: "Thepla Puri",
+		tagline: "Authentic, Rustic, Gujarati Flavor",
+		price: 90,
+		category: "Snacks and Namkeen",
+		weights: ["200g"],
+		tags: ["Traditional"],
+		reviewCount: 22,
+		rating: 4.3,
+		popular: true,
+		ingredients: "Whole wheat flour, fenugreek leaves, edible vegetable oil, salt, spices.",
+		nutrition: baseNutrition("452 kcal / 100g", "9.0 g", "18.6 g", "62.4 g"),
+		shelfLife: "2 months from date of packaging",
+		highlights: [
+			"Methi in every bite",
+			"Travel friendly",
+			"No preservatives"
+		],
+		description: "Crisp mini theplas with fresh fenugreek folded into the dough. Made for long journeys and short tea breaks alike."
+	},
+	{
+		slug: "jwari-bhel",
+		name: "Jwari Bhel",
+		tagline: "Authentic, Crispy, Goodness",
+		price: 30,
+		category: "Snacks and Namkeen",
+		weights: ["80g"],
+		tags: ["Healthy", "Millet"],
+		reviewCount: 18,
+		rating: 4.2,
+		popular: true,
+		ingredients: "Puffed jowar, peanuts, curry leaves, edible vegetable oil, salt, spices.",
+		nutrition: baseNutrition("398 kcal / 100g", "10.2 g", "12.1 g", "62.8 g"),
+		shelfLife: "3 months from date of packaging",
+		highlights: [
+			"Jowar based",
+			"Light on oil",
+			"Everyday snacking"
+		],
+		description: "A light jowar bhel with peanuts and curry leaves — the everyday Maharashtrian snack, made with millet instead of refined flour."
+	},
+	{
+		slug: "banana-wefers",
+		name: "Banana Wefers",
+		tagline: "Golden slices, tropical crispy charm",
+		price: 45,
+		category: "Snacks and Namkeen",
+		weights: ["100g", "250g"],
+		tags: ["Crispy"],
+		reviewCount: 27,
+		rating: 4.4,
+		bestSeller: true,
+		ingredients: "Raw banana, coconut oil, iodised salt.",
+		nutrition: baseNutrition("519 kcal / 100g", "2.3 g", "31.0 g", "57.4 g"),
+		shelfLife: "2 months from date of packaging",
+		highlights: [
+			"Coconut oil fried",
+			"Only three ingredients",
+			"Konkan style"
+		],
+		description: "Thin raw-banana wafers fried in coconut oil the Konkan way. Salted lightly, nothing else added."
+	},
+	{
+		slug: "tangy-tomato",
+		name: "Tangy Tomato Rings",
+		tagline: "Crunchy, Tangy, Tomato Rings",
+		price: 100,
+		category: "Snacks and Namkeen",
+		weights: ["150g"],
+		tags: ["Crispy"],
+		reviewCount: 31,
+		rating: 4.1,
+		bestSeller: true,
+		ingredients: "Corn meal, tomato seasoning, edible vegetable oil, salt, spices.",
+		nutrition: baseNutrition("488 kcal / 100g", "6.0 g", "23.2 g", "63.0 g"),
+		shelfLife: "4 months from date of packaging",
+		highlights: [
+			"Tangy tomato seasoning",
+			"Airy crunch",
+			"Party snack"
+		],
+		description: "Puffed corn rings with a sharp tomato seasoning — the party bowl filler."
+	},
+	{
+		slug: "jowar-palak-khakhra",
+		name: "Jowar Palak Khakhra",
+		tagline: "Healthy Jowar, Crispy, Crunch",
+		price: 130,
+		category: "Snacks and Namkeen",
+		weights: ["200g"],
+		tags: ["Healthy", "Millet"],
+		reviewCount: 14,
+		rating: 4.5,
+		ingredients: "Jowar flour, spinach, whole wheat flour, edible vegetable oil, salt, spices.",
+		nutrition: baseNutrition("386 kcal / 100g", "11.4 g", "9.8 g", "64.2 g"),
+		shelfLife: "4 months from date of packaging",
+		highlights: [
+			"Roasted, not fried",
+			"Jowar + palak",
+			"Diabetic friendly snack"
+		],
+		description: "Roasted jowar khakhra with spinach folded in. Low oil, high fibre, and it keeps for months."
+	},
+	{
+		slug: "bajra-methi-khakhra",
+		name: "Bajra Methi Khakhra",
+		tagline: "Bajra, Healthy, Crispy, Crunch",
+		price: 130,
+		category: "Snacks and Namkeen",
+		weights: ["200g"],
+		tags: ["Healthy", "Millet"],
+		reviewCount: 11,
+		rating: 4.4,
+		ingredients: "Bajra flour, fenugreek leaves, whole wheat flour, edible vegetable oil, salt.",
+		nutrition: baseNutrition("392 kcal / 100g", "11.9 g", "10.1 g", "63.4 g"),
+		shelfLife: "4 months from date of packaging",
+		highlights: [
+			"Roasted, not fried",
+			"Bajra + methi",
+			"High fibre"
+		],
+		description: "Pearl millet khakhra with methi — earthy, faintly bitter, and very filling."
+	},
+	{
+		slug: "chorafali-khakhra",
+		name: "Chorafali Khakhra",
+		tagline: "Traditional, Crunchy, Savory, Delight",
+		price: 130,
+		category: "Snacks and Namkeen",
+		weights: ["200g"],
+		tags: ["Healthy"],
+		reviewCount: 9,
+		rating: 4.2,
+		ingredients: "Gram flour, urad flour, edible vegetable oil, salt, spices.",
+		nutrition: baseNutrition("448 kcal / 100g", "12.6 g", "18.4 g", "58.1 g"),
+		shelfLife: "4 months from date of packaging",
+		highlights: [
+			"Papad-thin",
+			"Protein from gram flour",
+			"Festive favourite"
+		],
+		description: "Feather-light chorafali, best eaten with a dusting of chaat masala."
+	},
+	{
+		slug: "ambadi-bhajiche-lonche",
+		name: "Ambadi Bhajiche Lonche",
+		tagline: "Traditional, Tangy Pickle Delight",
+		price: 190,
+		category: "Pickles & Condiments",
+		weights: ["250g", "500g"],
+		tags: ["Traditional", "Aaji's Recipe"],
+		reviewCount: 47,
+		rating: 4.8,
+		bestSeller: true,
+		ingredients: "Ambadi leaves, mustard oil, red chilli, mustard, fenugreek, salt, asafoetida.",
+		nutrition: baseNutrition("212 kcal / 100g", "2.1 g", "18.6 g", "9.4 g"),
+		shelfLife: "12 months from date of packaging",
+		highlights: [
+			"Sun-dried",
+			"Oil preserved",
+			"No preservatives",
+			"Aaji's recipe"
+		],
+		description: "Ambadi leaves cured in mustard oil the way it has been done at home for generations. Sharp, sour and made to last the year."
+	},
+	{
+		slug: "kolambi-lonche",
+		name: "Prawns Pickle (Kolambi Lonche)",
+		tagline: "Authentic, Spicy, Coastal Flavor",
+		price: 280,
+		category: "Pickles & Condiments",
+		weights: ["200g", "400g"],
+		tags: ["Non-veg", "Traditional"],
+		reviewCount: 62,
+		rating: 4.9,
+		bestSeller: true,
+		ingredients: "Prawns, edible vegetable oil, red chilli, garlic, tamarind, salt, spices.",
+		nutrition: baseNutrition("268 kcal / 100g", "14.2 g", "20.8 g", "6.1 g"),
+		shelfLife: "6 months from date of packaging",
+		highlights: [
+			"Konkan coast recipe",
+			"Hand-cleaned prawns",
+			"Refrigerate after opening"
+		],
+		description: "Konkan prawn pickle — hot, garlicky and unapologetically coastal. A spoon of this is a full meal with rice."
+	},
+	{
+		slug: "lemon-pickle",
+		name: "Limbu Lonche",
+		tagline: "Sun-cured, Tangy, Timeless",
+		price: 160,
+		category: "Pickles & Condiments",
+		weights: ["250g", "500g"],
+		tags: ["Traditional", "Aaji's Recipe"],
+		reviewCount: 38,
+		rating: 4.6,
+		ingredients: "Lemon, salt, red chilli, mustard, fenugreek, turmeric, edible vegetable oil.",
+		nutrition: baseNutrition("164 kcal / 100g", "1.4 g", "12.2 g", "12.8 g"),
+		shelfLife: "18 months from date of packaging",
+		highlights: [
+			"Sun-cured for 21 days",
+			"No vinegar",
+			"Gets better with age"
+		],
+		description: "Whole lemons cured in salt and sun for three weeks before the masala goes in."
+	},
+	{
+		slug: "methi-thalipith-bhajni",
+		name: "Methi Thalipith Bhajni",
+		tagline: "Traditional, Healthy, Flavor",
+		price: 70,
+		category: "Dry/Instant Grocery",
+		weights: ["500g"],
+		tags: ["Healthy", "Premix"],
+		reviewCount: 25,
+		rating: 4.7,
+		bestSeller: true,
+		ingredients: "Jowar, bajra, rice, gram flour, wheat, fenugreek, coriander, cumin.",
+		nutrition: baseNutrition("354 kcal / 100g", "12.8 g", "4.2 g", "66.4 g"),
+		shelfLife: "6 months from date of packaging",
+		highlights: [
+			"Multi-grain roasted flour",
+			"Just add water",
+			"Breakfast in 10 minutes"
+		],
+		description: "A roasted multigrain bhajni with methi already in it. Knead with water and onion, pat it out, and thalipith is done."
+	},
+	{
+		slug: "shevga-soup",
+		name: "Shevga Soup",
+		tagline: "Healthy, Moringa, Comfort",
+		price: 38,
+		category: "Dry/Instant Grocery",
+		weights: ["30g"],
+		tags: ["Healthy", "Instant"],
+		reviewCount: 12,
+		rating: 4.1,
+		ingredients: "Moringa (drumstick) leaf powder, corn starch, salt, pepper, spices.",
+		nutrition: baseNutrition("312 kcal / 100g", "9.6 g", "2.8 g", "64.1 g"),
+		shelfLife: "9 months from date of packaging",
+		highlights: [
+			"Moringa based",
+			"Ready in 3 minutes",
+			"Monsoon comfort"
+		],
+		description: "Instant drumstick-leaf soup. Stir into hot water, wait three minutes, done."
+	},
+	{
+		slug: "hulage-kulith-shengoli",
+		name: "Hulage / Kulith Shengoli",
+		tagline: "Kulith, Rustic, Comfort",
+		price: 90,
+		category: "Dry/Instant Grocery",
+		weights: ["220g"],
+		tags: ["Traditional", "Healthy"],
+		reviewCount: 8,
+		rating: 4.3,
+		ingredients: "Horse gram flour, rice flour, garlic, cumin, salt, spices.",
+		nutrition: baseNutrition("362 kcal / 100g", "16.4 g", "3.1 g", "62.0 g"),
+		shelfLife: "6 months from date of packaging",
+		highlights: [
+			"Horse gram protein",
+			"Winter staple",
+			"Traditional Konkan recipe"
+		],
+		description: "Kulith shengoli, the rustic horse-gram dumpling mix eaten through Konkan winters."
+	},
+	{
+		slug: "multi-millet-noodles",
+		name: "Multi Millet Noodles",
+		tagline: "Millet Goodness, Crunchy, Delight",
+		price: 100,
+		category: "Dry/Instant Grocery",
+		weights: ["180g"],
+		tags: ["Healthy", "Millet"],
+		reviewCount: 16,
+		rating: 4.2,
+		ingredients: "Jowar, bajra, ragi, wheat flour, salt.",
+		nutrition: baseNutrition("348 kcal / 100g", "11.2 g", "1.9 g", "70.4 g"),
+		shelfLife: "9 months from date of packaging",
+		highlights: [
+			"No maida",
+			"Cooks in 5 minutes",
+			"Multi-millet blend"
+		],
+		description: "Millet noodles with no refined flour — a straight swap for the packet kind."
+	},
+	{
+		slug: "pearl-millet-noodles",
+		name: "Pearl Millet Noodles",
+		tagline: "Bajra Rich, Tasty, Noodles",
+		price: 120,
+		category: "Dry/Instant Grocery",
+		weights: ["180g"],
+		tags: ["Healthy", "Millet"],
+		reviewCount: 10,
+		rating: 4,
+		ingredients: "Bajra flour, wheat flour, salt.",
+		nutrition: baseNutrition("344 kcal / 100g", "11.8 g", "2.2 g", "69.1 g"),
+		shelfLife: "9 months from date of packaging",
+		highlights: [
+			"Bajra forward",
+			"No maida",
+			"High fibre"
+		],
+		description: "Bajra noodles — nuttier and heavier than the multi-millet version."
+	},
+	{
+		slug: "aaswad-mitha-paan",
+		name: "Aaswad Mitha Paan",
+		tagline: "Sweet Paan, Tasty, Fresh",
+		price: 60,
+		category: "Mukhvas & Digestives",
+		weights: ["100g"],
+		tags: ["After meal"],
+		reviewCount: 7,
+		rating: 4,
+		ingredients: "Betel leaf flakes, fennel, dates, coconut, gulkand, sugar, menthol.",
+		nutrition: baseNutrition("372 kcal / 100g", "3.8 g", "9.2 g", "68.4 g"),
+		shelfLife: "6 months from date of packaging",
+		highlights: [
+			"Sweet paan mix",
+			"After-meal freshener",
+			"No tobacco"
+		],
+		description: "A sweet paan mukhvas with gulkand and dates — the after-dinner spoonful."
+	},
+	{
+		slug: "shahi-mukhwas",
+		name: "Shahi Mukhwas",
+		tagline: "Royal Flavor, Cool, Fresh",
+		price: 80,
+		category: "Mukhvas & Digestives",
+		weights: ["100g"],
+		tags: ["After meal"],
+		reviewCount: 6,
+		rating: 4.2,
+		ingredients: "Fennel, sesame, coriander seed, dhana dal, sugar coating, menthol.",
+		nutrition: baseNutrition("386 kcal / 100g", "8.4 g", "14.6 g", "56.2 g"),
+		shelfLife: "6 months from date of packaging",
+		highlights: [
+			"Fennel and sesame base",
+			"Cooling",
+			"Digestive"
+		],
+		description: "A classic saunf-and-til mukhwas with a light sugar coating."
+	},
+	{
+		slug: "goda-masala",
+		name: "Goda Masala",
+		tagline: "Hand-pounded, Warm, Essential",
+		price: 145,
+		category: "Spices & Masalas",
+		weights: ["100g", "250g"],
+		tags: ["Traditional", "Staple"],
+		reviewCount: 53,
+		rating: 4.8,
+		bestSeller: true,
+		ingredients: "Coriander, dagad phool, cinnamon, cloves, sesame, dry coconut, red chilli, salt.",
+		nutrition: baseNutrition("398 kcal / 100g", "12.1 g", "22.4 g", "38.6 g"),
+		shelfLife: "12 months from date of packaging",
+		highlights: [
+			"Hand-pounded",
+			"Dagad phool forward",
+			"No artificial colour"
+		],
+		description: "The masala that makes amti, bhaji and varan taste like home. Roasted and pounded in small batches."
+	},
+	{
+		slug: "kanda-lasun-masala",
+		name: "Kanda Lasun Masala",
+		tagline: "Fiery, Garlicky, Kolhapuri",
+		price: 155,
+		category: "Spices & Masalas",
+		weights: ["100g", "250g"],
+		tags: [
+			"Traditional",
+			"Spicy",
+			"Staple"
+		],
+		reviewCount: 44,
+		rating: 4.7,
+		ingredients: "Red chilli, garlic, onion, coriander, cumin, dry coconut, salt, spices.",
+		nutrition: baseNutrition("372 kcal / 100g", "13.4 g", "18.9 g", "41.2 g"),
+		shelfLife: "12 months from date of packaging",
+		highlights: [
+			"Kolhapuri heat",
+			"Sun-dried garlic",
+			"No artificial colour"
+		],
+		description: "Hot, garlicky and deep red. Use half of what you think you need."
+	},
+	{
+		slug: "puran-poli",
+		name: "Puran Poli",
+		tagline: "Festive, Sweet, Handmade",
+		price: 210,
+		category: "Sweets & Bakery",
+		weights: ["4 pcs", "8 pcs"],
+		tags: ["Festive", "Traditional"],
+		reviewCount: 29,
+		rating: 4.6,
+		ingredients: "Whole wheat flour, chana dal, jaggery, cardamom, nutmeg, ghee.",
+		nutrition: baseNutrition("326 kcal / 100g", "7.2 g", "8.4 g", "56.8 g"),
+		shelfLife: "5 days refrigerated",
+		highlights: [
+			"Jaggery, not sugar",
+			"Rolled by hand",
+			"Ghee finished"
+		],
+		description: "Thin, jaggery-filled puran poli made the day it ships. Warm it with ghee."
+	},
+	{
+		slug: "besan-ladoo",
+		name: "Besan Ladoo",
+		tagline: "Ghee-roasted, Rich, Classic",
+		price: 240,
+		category: "Sweets & Bakery",
+		weights: ["250g", "500g"],
+		tags: ["Festive"],
+		reviewCount: 33,
+		rating: 4.5,
+		ingredients: "Gram flour, ghee, sugar, cardamom.",
+		nutrition: baseNutrition("482 kcal / 100g", "9.8 g", "26.4 g", "52.1 g"),
+		shelfLife: "21 days from date of packaging",
+		highlights: [
+			"Slow ghee-roasted besan",
+			"Four ingredients",
+			"No preservatives"
+		],
+		description: "Besan roasted slowly in ghee until it turns nutty, then rolled while warm."
+	},
+	{
+		slug: "shrikhand-elaichi",
+		name: "Shrikhand (Elaichi)",
+		tagline: "Creamy, Cardamom, Chilled",
+		price: 130,
+		category: "Dairy & Beverages",
+		weights: ["250g"],
+		tags: ["Fresh"],
+		reviewCount: 21,
+		rating: 4.4,
+		ingredients: "Hung curd, sugar, cardamom, saffron.",
+		nutrition: baseNutrition("242 kcal / 100g", "6.4 g", "9.1 g", "33.2 g"),
+		shelfLife: "7 days refrigerated",
+		highlights: [
+			"Hung curd base",
+			"Cardamom & kesar",
+			"Keep refrigerated"
+		],
+		description: "Thick elaichi shrikhand, strained overnight. Serve cold with puri."
+	},
+	{
+		slug: "masala-taak",
+		name: "Masala Taak",
+		tagline: "Spiced, Cooling, Everyday",
+		price: 40,
+		category: "Dairy & Beverages",
+		weights: ["200ml"],
+		tags: ["Fresh"],
+		reviewCount: 13,
+		rating: 4.2,
+		ingredients: "Buttermilk, curry leaves, green chilli, ginger, cumin, salt.",
+		nutrition: baseNutrition("38 kcal / 100ml", "1.8 g", "1.1 g", "4.6 g"),
+		shelfLife: "3 days refrigerated",
+		highlights: [
+			"Fresh churned",
+			"Curry leaf tempered",
+			"Keep refrigerated"
+		],
+		description: "Spiced buttermilk with curry leaf and ginger — the Pune summer drink."
+	},
+	{
+		slug: "kaju-katli",
+		name: "Kaju Katli",
+		tagline: "Smooth, Rich, Gifting",
+		price: 420,
+		category: "Confectionery",
+		weights: ["250g", "500g"],
+		tags: ["Festive", "Gifting"],
+		reviewCount: 26,
+		rating: 4.5,
+		ingredients: "Cashew, sugar, cardamom, edible silver leaf.",
+		nutrition: baseNutrition("528 kcal / 100g", "11.2 g", "28.6 g", "56.4 g"),
+		shelfLife: "15 days from date of packaging",
+		highlights: [
+			"Whole cashew ground fresh",
+			"No milk solids",
+			"Gift-box ready"
+		],
+		description: "Thin kaju katli ground fresh from whole cashews, nothing bulking it out."
+	},
+	{
+		slug: "chikki-shengdana",
+		name: "Shengdana Chikki",
+		tagline: "Jaggery, Peanut, Snap",
+		price: 65,
+		category: "Confectionery",
+		weights: ["200g"],
+		tags: ["Traditional"],
+		reviewCount: 19,
+		rating: 4.6,
+		ingredients: "Peanut, jaggery.",
+		nutrition: baseNutrition("486 kcal / 100g", "14.8 g", "24.2 g", "52.6 g"),
+		shelfLife: "4 months from date of packaging",
+		highlights: [
+			"Two ingredients",
+			"Lonavala style",
+			"Jaggery, not sugar"
+		],
+		description: "Peanut and jaggery, nothing else. Snaps clean when you break it."
+	}
+];
+var formatINR = (paise) => `₹${paise.toLocaleString("en-IN")}`;
+//#endregion
+export { PRODUCTS as n, formatINR as r, CATEGORIES as t };
