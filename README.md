@@ -1,4 +1,4 @@
-# Naik Foods — Improvement Prototype
+# Improvement Prototype
 
 A working improvement prototype built for the BITS AND VOLTS Full Stack MERN intern task. It recreates the structure of `naikfoods.co.in` and turns the manually verified findings into a more complete, usable e-commerce experience.
 
